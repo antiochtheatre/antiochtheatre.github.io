@@ -1,0 +1,12 @@
+// Home —————————————————————————————————————— •
+.home {
+
+}
+
+
+// Home: Tablet —————————————————————————————— •
+@include responsive-break-point(640px) {
+  .home {
+
+  }
+}

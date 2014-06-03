@@ -1,0 +1,25 @@
+// Navigation ———————————————————————————————— •
+.navigation {
+  @include border-box;
+  margin: 1em auto;
+  width: 100%;
+}
+
+.navigation-home {
+  width: 350px;
+  height: 180px;
+  display: block;
+  background: url('/assets/images/logo.png') no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+
+// Navigation: Desktop ——————————————————————— •
+@include responsive-break-point(768px) {
+  .navigation {
+    max-width: 960px;
+  }
+}

@@ -1,0 +1,10 @@
+title: Save the Antioch Theatre
+description: Help us restore and reopen the historic Antioch Theatre in downtown Antioch Illinois.
+
+source: ./_source
+destination: public
+exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
+
+permalink: /:categories/:title
+markdown: rdiscount
+pygments: true

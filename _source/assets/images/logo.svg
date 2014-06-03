@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="903px" height="492px" viewBox="0 0 903 492" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <title>anitoch-theatre-logo</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="anitoch-theatre-logo-+-Group" sketch:type="MSLayerGroup" font-family="Brandon Printed">
+            <g id="Group" sketch:type="MSTextLayer">
+                <text id="SAVE-2" font-size="75.1111111" font-weight="260" fill="#D0011B">
+                    <tspan x="133.7125" y="82.0963855">SAVE</tspan>
+                </text>
+                <text id="HISTORIC" font-size="75.1111111" font-weight="260" fill="#D0011B">
+                    <tspan x="424.051923" y="82.0963855">HIST</tspan>
+                    <tspan x="599.060812" y="82.0963855" letter-spacing="-1.8">O</tspan>
+                    <tspan x="660.354145" y="82.0963855">RIC</tspan>
+                </text>
+                <text id="S" font-size="81.7575758" font-weight="633" fill="#D0011B">
+                    <tspan x="333.826923" y="86.7831325">S</tspan>
+                </text>
+                <text id="ANTIOCH" font-size="119.77931" font-weight="normal" fill="#2E1703">
+                    <tspan x="160.317308" y="202.963855">AN</tspan>
+                    <tspan x="342.022521" y="202.963855" letter-spacing="1">T</tspan>
+                    <tspan x="413.093418" y="202.963855">IOCH</tspan>
+                </text>
+                <text id="THEATRE" font-size="177.747664" font-weight="normal" sketch:alignment="middle" fill="#2E1703">
+                    <tspan x="42.5331272" y="367.903614">T</tspan>
+                    <tspan x="146.51551" y="367.903614" letter-spacing="-6">H</tspan>
+                    <tspan x="282.535894" y="367.903614" letter-spacing="5">E</tspan>
+                    <tspan x="397.917193" y="367.903614" letter-spacing="-2">A</tspan>
+                    <tspan x="513.230651" y="367.903614">TRE</tspan>
+                </text>
+                <text id="n" font-size="300" font-weight="633" line-spacing="280" fill="#D0011B">
+                    <tspan x="0.0461538462" y="692.144578">n</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
