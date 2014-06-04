@@ -20,8 +20,8 @@ desc "Design, write, and edit live."
 task :default => [:clean] do
   pids = [
     spawn("jekyll -w build"),
-    spawn("sass --watch _source/_assets/sass:_source/assets/stylesheets"),
-    spawn("coffee --bare --watch --join _source/assets/javascript/scripts.js --compile _source/_assets/coffeescript/*.coffee")
+    spawn("sass --watch _assets/css:assets/stylesheets"),
+    spawn("coffee --bare --watch --join assets/javascript/scripts.js --compile _assets/js/*.coffee")
   ]
 
   trap "INT" do
@@ -43,8 +43,8 @@ end
 desc "Generate a copy of the most current site."
 task :compile do
   system "jekyll build"
-  system "sass --style compressed _source/_assets/sass/style.scss:public/assets/stylesheets/style.css"
-  system "coffee --bare --join public/assets/javascript/scripts.js --compile _source/_assets/coffeescript/*.coffee"
+  system "sass --style compressed _assets/css/style.scss:public/assets/stylesheets/style.css"
+  system "coffee --bare --join public/assets/javascript/scripts.js --compile _assets/js/*.coffee"
 end
 
 desc "Compress JavaScript."
