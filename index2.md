@@ -75,6 +75,8 @@ Digital projection will provide outstanding quality allowing the theater to cont
 The additional screen is critical for successful operation in the future.  Movie distributors require theaters to hold films for 2-4 weeks.  However, as a movie’s attendance drops during its run, a single screen theater is burdened with little income while it waits for the next new release.  With a new second screen, the revitalized Antioch Theatre would be able to transfer a movie onto the smaller screen in the latter weeks of its run and show a new release in the original, larger theater.
 </section>
 
+<a href="https://www.kickstarter.com/projects/608543555/493992288?token=12c9ea62" class="cta-button">Back our project on Kickstarter</a>
+
 <ul class="links">
   <li><a href="http://facebook.com/AntiochTheatre">Find us on Facebook</a></li>
   <li><a href="#">Contact us</a></li>
