@@ -1,6 +1,44 @@
 // Home —————————————————————————————————————— •
 .home {
+  font-family: 'chaparral-pro';
 
+  .column-image {
+    float: left;
+    margin: 0 2rem 1rem -10rem;
+    border: 1px solid #2E1803;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-style: italic;
+    background: white;
+
+    img {
+      max-width: 400px;
+    }
+
+    figcaption {
+      padding-bottom: 0.25rem;
+    }
+
+    &.big {
+      img { max-width: 500px; }
+    }
+
+    &.right {
+      float: right;
+      margin: 0 -10rem 1rem 2rem;
+    }
+  }
+
+  .renovation ul {
+    margin-left: 500px;
+  }
+
+  .links {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 }
 
 

@@ -68,11 +68,11 @@ body {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  background-color: #fff5b3;
-  color: #2e1803;
+  background-color: #fff7bc;
+  color: #432e17;
   font-family: 'brandon-grotesque', Helvetica, 'Lucida Grande', sans-serif;
   font-size: 1.6rem;
-  line-height: 2.0rem;
+  line-height: 2.2rem;
   position: relative; }
 
 a {
@@ -84,7 +84,7 @@ a {
     color: #d0021b;
     text-decoration: underline; }
   a:active {
-    color: #2e1803; }
+    color: #432e17; }
 
 .content {
   -webkit-box-sizing: border-box;
@@ -105,26 +105,48 @@ h1 {
   font-size: 2rem;
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 400; }
+
+h2 {
+  font-family: brandon-grotesque;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem; }
 
 p {
   margin-bottom: 1.6rem; }
 
+ul {
+  padding-left: 1.6rem;
+  margin-bottom: 1.6rem; }
+
+section {
+  clear: left;
+  display: block; }
+
 .cta-button {
-  display: inline-block;
-  background: #3366cc;
-  border-radius: 5px;
-  font-weight: bold;
+  display: table;
+  background: #2F72C1;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 900;
   color: white;
   padding: 1rem 3rem;
-  margin: 0 auto;
-  border-bottom: 5px solid rgba(0, 0, 0, 0.2); }
+  margin: 0 auto 3rem;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'brandon-grotesque'; }
   .cta-button:hover {
-    color: white; }
+    color: white;
+    text-decoration: none;
+    background: #4A90E2; }
 
 @media only screen and (min-width: 800px) {
   .content {
-    max-width: 960px; } }
+    max-width: 860px; } }
 @media screen and (max-device-width: 480px) {
   html {
     -webkit-text-size-adjust: 100%;
@@ -137,8 +159,8 @@ p {
   width: 100%; }
 
 .navigation-home {
-  width: 350px;
-  height: 180px;
+  width: 465px;
+  height: 240px;
   display: block;
   background: url("/assets/images/logo.png") no-repeat;
   background-size: 100%;
@@ -159,3 +181,29 @@ p {
 @media only screen and (min-width: 768px) {
   .footer {
     max-width: 960px; } }
+.home {
+  font-family: 'chaparral-pro'; }
+  .home .column-image {
+    float: left;
+    margin: 0 2rem 1rem -10rem;
+    border: 1px solid #2E1803;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-style: italic;
+    background: white; }
+    .home .column-image img {
+      max-width: 400px; }
+    .home .column-image figcaption {
+      padding-bottom: 0.25rem; }
+    .home .column-image.big img {
+      max-width: 500px; }
+    .home .column-image.right {
+      float: right;
+      margin: 0 -10rem 1rem 2rem; }
+  .home .renovation ul {
+    margin-left: 500px; }
+  .home .links {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 3rem; }

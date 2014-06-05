@@ -14,7 +14,7 @@ body {
   color: $color-text;
   font-family: 'brandon-grotesque', Helvetica, 'Lucida Grande', sans-serif;
   font-size: 1.6rem;
-  line-height: 2.0rem;
+  line-height: 2.2rem;
   position: relative;
 }
 
@@ -41,24 +41,49 @@ h1 {
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
   text-align: center;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: brandon-grotesque;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 p {
   margin-bottom: 1.6rem;
 }
 
+ul {
+  padding-left: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+section {
+  clear: left;
+  display: block;
+}
+
 .cta-button {
-  display: inline-block;
-  background: #3366cc;
-  border-radius: 5px;
-  font-weight: bold;
+  display: table;
+  background: #2F72C1;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 900;
   color: white;
   padding: 1rem 3rem;
-  margin: 0 auto;
-  border-bottom: 5px solid rgba(0,0,0,0.2);
+  margin: 0 auto 3rem;
+  border-bottom: 5px solid rgba(0,0,0,0.4);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'brandon-grotesque';
 
   &:hover {
     color: white;
+    text-decoration: none;
+    background: #4A90E2;
   }
 }
 
@@ -69,7 +94,7 @@ p {
 
 // Base Styles: Desktop —————————————————————— •
 @include responsive-break-point(800px) {
-  .content { max-width: 960px; }
+  .content { max-width: 860px; }
 }
 
 
@@ -89,5 +114,4 @@ p {
 
 // Pages ————————————————————————————————————— •
 @import
-  'pages/about',
   'pages/home';
