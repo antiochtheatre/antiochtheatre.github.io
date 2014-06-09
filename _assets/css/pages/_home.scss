@@ -1,8 +1,37 @@
 // Home —————————————————————————————————————— •
 .home {
+  .intro {
+    text-align: center;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: #4A90E2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-family: 'brandon-grotesque';
+    font-weight: 900;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: white;
+    padding: 1rem 3rem 0.75rem;
+    margin: 0 auto;
+    border-bottom: 5px solid rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+      background: #2F72C1;
+    }
+  }
+
   .column-image {
     float: left;
-    margin: 0 2rem 2rem -10rem;
+    margin: 0 2rem 2rem -5rem;
     border: 1px solid #2E1803;
     text-align: center;
     font-size: 1rem;
@@ -25,12 +54,12 @@
 
     &.right {
       float: right;
-      margin: 0 -10rem 1rem 2rem;
+      margin: 0 -7rem 1rem 2rem;
     }
   }
 
   .renovation ul {
-    margin-left: 390px;
+    margin-left: 29rem;
   }
 
   .links {
@@ -48,6 +77,26 @@
 // Home: Tablet —————————————————————————————— •
 @include responsive-break-point(640px) {
   .home {
+    .cta-button {
+      font-size: 1.1rem;
+      line-height: 1.5rem;
 
+    }
+
+    .column-image, .column-image.right, .column-image.big {
+      float: none;
+      margin: 0 auto;
+      display: inline-block;
+      max-width: 100%;
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+    }
+
+    .renovation ul {
+      margin-left: 0;
+    }
   }
 }

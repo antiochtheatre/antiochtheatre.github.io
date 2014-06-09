@@ -73,7 +73,8 @@ body {
   font-family: 'brandon-grotesque', Helvetica, 'Lucida Grande', sans-serif;
   font-size: 1.6rem;
   line-height: 2.0rem;
-  position: relative; }
+  position: relative;
+  margin: 0 1rem; }
 
 a {
   color: #d0021b; }
@@ -89,7 +90,8 @@ a {
   zoom: 1;
   margin: 0 auto;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  max-width: 860px; }
   .content:after {
     content: ".";
     display: block;
@@ -107,14 +109,15 @@ h1 {
 
 h2 {
   font-family: brandon-grotesque;
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  margin-top: 3rem;
   margin-bottom: 1.6rem; }
 
 hr {
   border-top: 4px double #432e17;
   height: 0;
-  margin: 3rem -4rem 2rem;
+  margin: 3rem -9rem 2rem;
   clear: left; }
 
 p {
@@ -128,28 +131,19 @@ section {
   clear: left;
   display: block; }
 
-.cta-button {
-  display: table;
-  background: #4A90E2;
-  border-radius: 10px;
-  font-family: 'brandon-grotesque';
-  font-weight: 900;
-  font-size: 1.6rem;
-  line-height: 2.2rem;
-  color: white;
-  padding: 1rem 3rem 0.75rem;
-  margin: 0 auto 2rem;
-  border-bottom: 5px solid rgba(0, 0, 0, 0.4);
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 2px; }
-  .cta-button:hover {
-    color: white;
-    text-decoration: none;
-    background: #2F72C1; }
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 1.4rem;
+    line-height: 1.6rem; }
 
-@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem; }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 2rem; } }
+@media only screen and (max-width: 800px) {
   .content {
     max-width: 860px; } }
 @media screen and (max-device-width: 480px) {
@@ -163,19 +157,12 @@ section {
   margin: 1em auto;
   width: 100%; }
 
-.navigation-home {
-  width: 465px;
-  height: 240px;
+.navigation-home img {
+  width: 100%;
   display: block;
-  background: url("/assets/images/logo.png") no-repeat;
-  background-size: 100%;
-  margin: 0 auto;
-  text-indent: -9999px;
-  overflow: hidden; }
+  max-width: 465px;
+  margin: 0 auto; }
 
-@media only screen and (min-width: 768px) {
-  .navigation {
-    max-width: 960px; } }
 .footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -183,12 +170,35 @@ section {
   margin: 1em auto;
   width: 100%; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer {
     max-width: 960px; } }
+.home .intro {
+  text-align: center; }
+.home .cta-button {
+  display: inline-block;
+  background: #4A90E2;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  font-family: 'brandon-grotesque';
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: white;
+  padding: 1rem 3rem 0.75rem;
+  margin: 0 auto;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px; }
+  .home .cta-button:hover {
+    color: white;
+    text-decoration: none;
+    background: #2F72C1; }
 .home .column-image {
   float: left;
-  margin: 0 2rem 2rem -10rem;
+  margin: 0 2rem 2rem -5rem;
   border: 1px solid #2E1803;
   text-align: center;
   font-size: 1rem;
@@ -204,12 +214,27 @@ section {
       max-width: 500px; }
   .home .column-image.right {
     float: right;
-    margin: 0 -10rem 1rem 2rem; }
+    margin: 0 -7rem 1rem 2rem; }
 .home .renovation ul {
-  margin-left: 390px; }
+  margin-left: 29rem; }
 .home .links {
   list-style-type: none;
   text-align: center;
   margin-bottom: 3rem; }
   .home .links li {
     margin-bottom: 0.4rem; }
+
+@media only screen and (max-width: 640px) {
+  .home .cta-button {
+    font-size: 1.1rem;
+    line-height: 1.5rem; }
+  .home .column-image, .home .column-image.right, .home .column-image.big {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 100%; }
+    .home .column-image img, .home .column-image.right img, .home .column-image.big img {
+      display: block;
+      max-width: 100%; }
+  .home .renovation ul {
+    margin-left: 0; } }

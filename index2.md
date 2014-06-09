@@ -3,7 +3,7 @@ title: "Save the Antioch Theatre"
 class: home
 layout: default
 ---
-<section>
+<section class="intro">
 #After nearly 100 years, the beloved Antioch Theatre is now closed.<br>Help us open its doors once again!
 
 <a href="https://www.kickstarter.com/projects/608543555/493992288?token=12c9ea62" class="cta-button">Back the Antioch Theatre on Kickstarter</a>
@@ -56,7 +56,7 @@ After the renovation, we’ll have improved technology, expanded facilities, and
 
 ----
 
-## Our renovation plan: new tech, better facilities, and a fresh start.
+## Our plan: new tech and better facilities for a fresh start.
 
 <figure class="column-image big">
   ![Draft architectural rendering]({{ site.url }}/assets/images/theatre-rendering.jpg)

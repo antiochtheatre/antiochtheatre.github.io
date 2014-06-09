@@ -5,21 +5,16 @@
   width: 100%;
 }
 
-.navigation-home {
-  width: 465px;
-  height: 240px;
+.navigation-home img {
+  width: 100%;
   display: block;
-  background: url('/assets/images/logo.png') no-repeat;
-  background-size: 100%;
+  max-width: 465px;
   margin: 0 auto;
-  text-indent: -9999px;
-  overflow: hidden;
 }
 
 
 // Navigation: Desktop ——————————————————————— •
-@include responsive-break-point(768px) {
-  .navigation {
-    max-width: 960px;
+@include responsive-break-point(640px) {
+  .navigation-home {
   }
 }
