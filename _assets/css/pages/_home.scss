@@ -10,17 +10,15 @@
     border-radius: 10px;
     -webkit-border-radius: 10px;
     font-family: 'brandon-grotesque';
-    font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
+    font-weight: bold;
     line-height: 2.2rem;
     color: white;
-    padding: 1rem 3rem 0.75rem;
+    padding: 1.5rem 3rem 1.25rem;
     margin: 0 auto;
     border-bottom: 5px solid rgba(0,0,0,0.4);
-    text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    letter-spacing: 2px;
 
     &:hover {
       color: white;
@@ -78,8 +76,8 @@
 @include responsive-break-point(640px) {
   .home {
     .cta-button {
-      font-size: 1.1rem;
-      line-height: 1.5rem;
+      font-size: 1.6rem;
+      line-height: 2rem;
 
     }
 
