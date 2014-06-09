@@ -14,17 +14,14 @@ body {
   color: $color-text;
   font-family: 'brandon-grotesque', Helvetica, 'Lucida Grande', sans-serif;
   font-size: 1.6rem;
-  line-height: 2.2rem;
+  line-height: 2.0rem;
   position: relative;
 }
 
 a {
   color: $color-link;
-  margin: -.2rem;
-  padding: .2rem;
-  text-decoration: none;
 
-  &:hover { color: $color-link-hover; text-decoration: underline; }
+  &:hover { color: $color-link-hover; }
   &:active { color: $color-text; }
 }
 
@@ -37,6 +34,7 @@ a {
 }
 
 h1 {
+  font-family: brandon-grotesque;
   font-size: 2rem;
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
@@ -49,6 +47,13 @@ h2 {
   font-size: 2rem;
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
+}
+
+hr {
+  border-top: 4px double $color-text;
+  height: 0;
+  margin: 3rem -4rem 2rem;
+  clear: left;
 }
 
 p {
@@ -67,23 +72,25 @@ section {
 
 .cta-button {
   display: table;
-  background: #2F72C1;
+  background: #4A90E2;
   border-radius: 10px;
-  font-size: 1.4rem;
-  line-height: 2.2rem;
+  font-family: 'brandon-grotesque';
   font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
   color: white;
-  padding: 1rem 3rem;
-  margin: 0 auto 3rem;
+  padding: 1rem 3rem 0.75rem;
+  margin: 0 auto 2rem;
   border-bottom: 5px solid rgba(0,0,0,0.4);
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
   letter-spacing: 2px;
-  font-family: 'brandon-grotesque';
 
   &:hover {
     color: white;
     text-decoration: none;
-    background: #4A90E2;
+    background: #2F72C1;
   }
 }
 
