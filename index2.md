@@ -97,8 +97,11 @@ To date, $650,000 has been committed by the overwhelmingly generous support of l
 ----
 
 <a name="contact"></a>
-## Meet our team, and give us a shout!
+## Want more info about the renovation? Give us a shout!
 
+Call the theater at (847) 395-0425, or <a href="mailto:antiochtheatre@gmail.com">send an email</a>, and we&rsquo;ll get back to you soon.
+
+You can also <a href="http://facebook.com/AntiochTheatre">follow our progress on Facebook</a>. We&rsquo;ll be posting updates when we have them.
 
 ----
 
