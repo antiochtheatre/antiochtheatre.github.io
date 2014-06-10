@@ -74,7 +74,7 @@ body {
   font-size: 1.6rem;
   line-height: 2.0rem;
   position: relative;
-  margin: 0 1rem; }
+  margin: 0 0.75rem; }
 
 a {
   color: #d0021b; }
@@ -117,7 +117,7 @@ h2 {
 hr {
   border-top: 4px double #432e17;
   height: 0;
-  margin: 3rem -9rem 2rem;
+  margin: 3rem -4rem 2rem;
   clear: left; }
 
 p {
@@ -143,9 +143,32 @@ section {
   h2 {
     font-size: 1.8rem;
     line-height: 2rem; } }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
   .content {
     max-width: 860px; } }
+@media only screen and (max-width: 860px) {
+  h1 {
+    font-size: 1.7rem;
+    line-height: 2rem; }
+
+  h2 {
+    margin: 2rem 0; }
+
+  hr {
+    margin: 0; } }
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 1.3rem;
+    line-height: 1.6rem; }
+
+  h1 {
+    font-size: 1.3rem;
+    line-height: 1.8rem; }
+
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin: 1rem 0; } }
 @media screen and (max-device-width: 480px) {
   html {
     -webkit-text-size-adjust: 100%;
@@ -163,6 +186,15 @@ section {
   max-width: 465px;
   margin: 0 auto; }
 
+@media only screen and (max-width: 860px) {
+  .navigation-home img {
+    max-width: 400px; } }
+@media only screen and (max-width: 480px) {
+  .navigation {
+    margin-bottom: 0; }
+
+  .navigation-home img {
+    max-width: 300px; } }
 .footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -200,7 +232,7 @@ section {
   border: 1px solid #2E1803;
   text-align: center;
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 1.3rem;
   background: white; }
   .home .column-image img {
     max-width: 400px; }
@@ -218,21 +250,36 @@ section {
 .home .links {
   list-style-type: none;
   text-align: center;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  padding-left: 0; }
   .home .links li {
-    margin-bottom: 0.4rem; }
+    margin-bottom: 0.5rem; }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1035px) {
+  .home .column-image {
+    margin-left: 0; }
+    .home .column-image.right {
+      margin-right: 0; }
+    .home .column-image img, .home .column-image.big img {
+      max-width: 430px; } }
+@media only screen and (max-width: 860px) {
   .home .cta-button {
     font-size: 1.6rem;
-    line-height: 2rem; }
-  .home .column-image, .home .column-image.right, .home .column-image.big {
+    line-height: 2rem;
+    padding: 1rem 2rem; }
+  .home .column-image, .home .column-image.big {
     float: none;
     margin: 0 auto;
     display: inline-block;
     max-width: 100%; }
-    .home .column-image img, .home .column-image.right img, .home .column-image.big img {
+    .home .column-image img, .home .column-image.big img {
       display: block;
       max-width: 100%; }
+  .home .column-image.right {
+    display: none; }
   .home .renovation ul {
     margin-left: 0; } }
+@media only screen and (max-width: 480px) {
+  .home .cta-button {
+    font-size: 1.3rem;
+    line-height: 1.5rem; } }

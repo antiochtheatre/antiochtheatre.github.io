@@ -23,6 +23,8 @@ layout: default
 <section><a name="about"></a>
 ## Here&rsquo;s the story of the Antioch Theatre.
 
+Originally called the Majestic Theatre, the theater first opened in 1919 in Antioch, Illinois, as a live performance house. 
+
 <figure class="column-image">
   ![Antioch Theatre circa 1924]({{ site.url }}/assets/images/theatre-historical.jpg)
   <figcaption>
@@ -30,12 +32,12 @@ layout: default
   </figcaption>
 </figure>
 
-Originally called the Majestic Theatre, the theater first opened in 1919 as a live performance house. In 1924, it was converted to a single-screen movie theater and renamed the Antioch Theatre.
+In 1924, it was converted to a single-screen movie theater and renamed the Antioch Theatre. Most of downtown Antioch’s business district was developed around this time too.
 
-It thrived and survived through prohibition, the Great Depression, and World War II. It's been a popular venue for family-friendly movies for three generations.
+The theater survived and thrived for 90 years &mdash; through prohibition, the Great Depression, and World War II. It's been a popular venue for affordable, family-friendly movies for three generations.
 
 Unfortunately, in recent times, deferred maintenance and outdated
-technology put the Antioch Theatre in a dire financial situation. The theater closed its doors on May 16, 2014.
+technology put the Antioch Theatre in a dire financial situation. The current owner closed its doors on May 16, 2014.
 
 ----
 

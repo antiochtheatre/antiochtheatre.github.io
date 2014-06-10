@@ -13,8 +13,19 @@
 }
 
 
-// Navigation: Desktop ——————————————————————— •
-@include responsive-break-point(640px) {
-  .navigation-home {
+// Navigation: Tablet ——————————————————————— •
+@include responsive-break-point(860px) {
+  .navigation-home img {
+    max-width: 400px;
+  }
+}
+
+@include responsive-break-point(480px) {
+  .navigation {
+    margin-bottom: 0;
+  }
+
+  .navigation-home img {
+    max-width: 300px;
   }
 }

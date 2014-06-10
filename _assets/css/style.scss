@@ -16,7 +16,7 @@ body {
   font-size: 1.6rem;
   line-height: 2.0rem;
   position: relative;
-  margin: 0 1rem;
+  margin: 0 0.75rem;
 }
 
 a {
@@ -54,7 +54,7 @@ h2 {
 hr {
   border-top: 4px double $color-text;
   height: 0;
-  margin: 3rem -9rem 2rem;
+  margin: 3rem -4rem 2rem;
   clear: left;
 }
 
@@ -91,10 +91,42 @@ section {
 }
 
 // Base Styles: Desktop —————————————————————— •
-@include responsive-break-point(800px) {
+@include responsive-break-point(960px) {
   .content { max-width: 860px; }
 }
 
+@include responsive-break-point(860px) {
+  h1 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  h2 {
+    margin: 2rem 0;
+  }
+
+  hr {
+    margin: 0;
+  }
+}
+
+@include responsive-break-point(480px) {
+  body {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+  }
+}
 
 // Fix: iOS Font Sizing —————————————————————— •
 @media screen and (max-device-width: 480px) {

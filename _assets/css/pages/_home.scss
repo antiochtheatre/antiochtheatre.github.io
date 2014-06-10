@@ -33,7 +33,7 @@
     border: 1px solid #2E1803;
     text-align: center;
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.3rem;
     background: white;
 
     img {
@@ -64,24 +64,40 @@
     list-style-type: none;
     text-align: center;
     margin-bottom: 3rem;
+    padding-left: 0;
 
     li {
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.5rem;
     }
   }
 }
 
 
 // Home: Tablet —————————————————————————————— •
-@include responsive-break-point(640px) {
+@include responsive-break-point(1035px) {
+  .home {
+    .column-image {
+      margin-left: 0;
+
+      &.right {
+        margin-right: 0;
+      }
+
+      &, &.big { img {max-width: 430px;}}
+    }
+  }
+}
+
+@include responsive-break-point(860px) {
   .home {
     .cta-button {
       font-size: 1.6rem;
       line-height: 2rem;
+      padding: 1rem 2rem;
 
     }
 
-    .column-image, .column-image.right, .column-image.big {
+    .column-image, .column-image.big {
       float: none;
       margin: 0 auto;
       display: inline-block;
@@ -93,8 +109,21 @@
       }
     }
 
+    .column-image.right {
+      display: none;
+    }
+
     .renovation ul {
       margin-left: 0;
+    }
+  }
+}
+
+@include responsive-break-point(480px) {
+  .home {
+    .cta-button {
+      font-size: 1.3rem;
+      line-height: 1.5rem;
     }
   }
 }
