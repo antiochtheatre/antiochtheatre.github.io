@@ -105,5 +105,4 @@ You can also <a href="http://facebook.com/AntiochTheatre">follow our progress on
 
 ----
 
-<a href="https://www.kickstarter.com/projects/608543555/493992288?token=12c9ea62" class="cta-button">Back the Antioch Theatre on Kickstarter</a>
 
