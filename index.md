@@ -117,4 +117,6 @@ You can also <a href="http://facebook.com/AntiochTheatre">follow our progress on
   Be a star and join our proud sponsors:
 
   ![Thanks to our proud sponsors]({{ site.url }}/assets/images/sponsors.jpg)
+
+  Thanks for your interest and support!
 </footer>
