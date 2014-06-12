@@ -30,13 +30,12 @@
   .column-image {
     float: left;
     margin: 0 2rem 2rem -5rem;
-    border: 1px solid #2E1803;
     text-align: center;
     font-size: 1rem;
     line-height: 1.3rem;
-    background: white;
 
     img {
+      border: 1px solid #2E1803;
       max-width: 400px;
     }
 
