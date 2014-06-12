@@ -73,27 +73,28 @@ We have extensive improvements planned&mdash;the building will be revamped insid
 <li>All new digital projection and sound</li>
 <li>New screens, drapery, and seating</li>
 <li>New marquee and redesigned facade</li>
-<li>Renovated lobby and restrooms</li>
+<li>Renovated lobby and heated front sidewalk</li>
 <li>Sprinkler fire protection</li>
 <li>Preservation of the historic balcony</li>
 </ul>
 </div>
 
-Digital projection will allow the theater to show first-run releases and broadcast special events such as ballet, opera, sports, etc. The performance stage will remain, so the theater can host talks, comedy shows, musical performances, and other live events.
+Digital projection will allow the theater to show first-run releases and broadcast special events such as ballet, opera, and sports. The performance stage will remain, so the theater can host talks, comedy shows, musical performances, and other live events (but we&rsquo;ll never offer plays that compete with the wonderful PM&amp;L Theater in downtown Antioch!)
 </section>
 
 ----
 
 ## We need your help! Support the theater and become a permanent part of its future.
 
-Help us turn this renovation into a reality&mdash;please <a href="#">back our project on Kickstarter</a>! We&rsquo;re offering personalized rewards, including:
+Help us turn this renovation into a reality&mdash;please **<a href="#">back our project on Kickstarter</a>**! 
 
-* Movie and concessions passes
+In addition to Kickstarter, we&rsquo;re offering exciting personalized support opportunities, including:
+
 * Custom engraved sidewalk and wall stars
 * Seat sponsorships
 * Special event hosting
 
-If you&rsquo;d like sponsor the theater on behalf of your business or family outside of Kickstarter, <a href="mailto:antiochtheatre@gmail.com">send us an email</a> for more info.
+These are ways to permanently show your support for the theater and the downtown. If you&rsquo;d like sponsor the project on behalf of your business or family, call us at (847) 395-0425 or <a href="mailto:antiochtheatre@gmail.com">send us an email</a> for more info.
 
 ----
 
@@ -105,5 +106,8 @@ Call the theater at (847) 395-0425, or <a href="mailto:antiochtheatre@gmail.com"
 You can also <a href="http://facebook.com/AntiochTheatre">follow our progress on Facebook</a>.
 
 ----
+<footer class="sponsors">
+  Be a star and join our proud sponsors:
 
-
+  ![Thanks to our proud sponsors]({{ site.url }}/assets/images/sponsors.jpg)
+</footer>
