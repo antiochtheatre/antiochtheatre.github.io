@@ -39,7 +39,7 @@ technology put the Antioch Theatre in a dire financial situation. The current ow
 
 ----
 
-<figure class="column-image right">
+<figure class="column-image right present">
   ![Antioch Theatre present day]({{ site.url }}/assets/images/theatre-present.jpg)
   <figcaption>
     Antioch Theatre today.
@@ -87,6 +87,13 @@ Digital projection will allow the theater to show first-run releases and broadca
 ## We need your help! Support the theater and become a permanent part of its future.
 
 Help us turn this renovation into a reality&mdash;please **<a href="#">back our project on Kickstarter</a>**! 
+
+<figure class="column-image right">
+  ![Stars]({{ site.url }}/assets/images/stars.jpg)
+  <figcaption>
+    Sample personalized sidewalk and wall stars.
+  </figcaption>
+</figure>
 
 In addition to Kickstarter, we&rsquo;re offering exciting personalized support opportunities, including:
 

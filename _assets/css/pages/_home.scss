@@ -41,7 +41,7 @@
     }
 
     figcaption {
-      padding-bottom: 0.4rem;
+      padding: 0.4rem 0;
     }
 
     &.big {
@@ -104,7 +104,7 @@
 
     }
 
-    .column-image, .column-image.big {
+    .column-image, .column-image.big, .column-image.right {
       float: none;
       margin: 0 auto;
       display: inline-block;
@@ -116,7 +116,7 @@
       }
     }
 
-    .column-image.right {
+    .column-image.present {
       display: none;
     }
 

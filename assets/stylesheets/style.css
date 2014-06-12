@@ -237,7 +237,7 @@ section {
   .home .column-image img {
     max-width: 400px; }
   .home .column-image figcaption {
-    padding-bottom: 0.4rem; }
+    padding: 0.4rem 0; }
   .home .column-image.big {
     margin-right: 3rem; }
     .home .column-image.big img {
@@ -272,15 +272,15 @@ section {
     font-size: 1.6rem;
     line-height: 2rem;
     padding: 1rem 2rem; }
-  .home .column-image, .home .column-image.big {
+  .home .column-image, .home .column-image.big, .home .column-image.right {
     float: none;
     margin: 0 auto;
     display: inline-block;
     max-width: 100%; }
-    .home .column-image img, .home .column-image.big img {
+    .home .column-image img, .home .column-image.big img, .home .column-image.right img {
       display: block;
       max-width: 100%; }
-  .home .column-image.right {
+  .home .column-image.present {
     display: none; }
   .home .renovation ul {
     margin-left: 0; } }
