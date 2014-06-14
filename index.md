@@ -91,7 +91,7 @@ Help us turn this renovation into a reality&mdash;please **<a href="#">back our 
 <figure class="column-image right">
   ![Stars]({{ site.url }}/assets/images/stars.jpg)
   <figcaption>
-    Sample personalized sidewalk and wall stars.
+    Sample personalized sidewalk star.
   </figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ In addition to Kickstarter, we&rsquo;re offering exciting personalized support o
 * Seat sponsorships
 * Special event hosting
 
-These are ways to permanently show your support for the theater and the downtown. If you&rsquo;d like sponsor the project on behalf of your business or family, call us at (847) 395-0425 or <a href="mailto:antiochtheatre@gmail.com">send us an email</a> for more info.
+These are ways to permanently show your support for the theater and the downtown. If you&rsquo;d like to sponsor the project on behalf of your business or family, call us at (847) 395-0425 or <a href="mailto:antiochtheatre@gmail.com">send us an email</a> for more info.
 
 ----
 
