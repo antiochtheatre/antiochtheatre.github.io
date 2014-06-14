@@ -4,7 +4,7 @@ class: home
 layout: default
 ---
 <section class="kickstarter">
-#Our Kickstarter project is still being approved.
+#<strong>Our Kickstarter project is still being approved.</strong>
 
 Sorry about the delay! Please check back in a couple of days.
 
