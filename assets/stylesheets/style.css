@@ -105,7 +105,8 @@ h1 {
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
   text-align: center;
-  font-weight: 400; }
+  font-weight: 400;
+  font-weight: bold; }
 
 h2 {
   font-family: brandon-grotesque;
@@ -258,6 +259,9 @@ section {
   text-align: center; }
   .home .sponsors img {
     max-width: 100%; }
+
+.kickstarter {
+  text-align: center; }
 
 @media only screen and (max-width: 1035px) {
   .home .column-image {
