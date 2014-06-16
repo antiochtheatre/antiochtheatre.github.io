@@ -6,7 +6,7 @@ layout: default
 <section class="intro">
 #After nearly 100 years, the beloved Antioch Theatre is now closed.<br>Help us open its doors once again!
 
-<a href="kickstarter.html" class="cta-button">Back the Antioch Theatre on Kickstarter</a>
+<a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre" class="cta-button">Back the Antioch Theatre on Kickstarter</a>
 </section>
 
 <ul class="links">
@@ -86,7 +86,7 @@ Digital projection will allow the theater to show first-run releases and broadca
 
 ## We need your help! Support the theater and become a permanent part of its future.
 
-Help us turn this renovation into a reality&mdash;please **<a href="kickstarter.html">back our project on Kickstarter</a>**! 
+Help us turn this renovation into a reality&mdash;please **<a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre">back our project on Kickstarter</a>**! 
 
 <figure class="column-image right">
   ![Stars]({{ site.url }}/assets/images/stars.jpg)
