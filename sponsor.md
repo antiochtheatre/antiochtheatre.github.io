@@ -40,9 +40,9 @@ Join Raymond Chevrolet, Something Sweet and many other prominent businesses, ind
 
 Engraved clear glass stars will mounted on the wall leading up to the traditional balcony:
 
-* ~3.5” ($)
-* ~4.25” x 18” ($)
-* ~5.0” x 12” ($)
+* ~3.5” ($50)
+* ~4.25” x 18” ($100)
+* ~5.0” x 12” ($250)
 
 ----
 
@@ -55,7 +55,7 @@ Engraved clear glass stars will mounted on the wall leading up to the traditiona
   </figcaption>
 </figure>
 
-Engraved brass plaques are available for $xxx.  They will be mounted on the seat back(s) of your choice, first come first served, throughout all seating areas (main theatre, balcony, new theatre.)
+Engraved brass plaques are available for $250.  They will be mounted on the seat back(s) of your choice, first come first served, throughout all seating areas (main theatre, balcony, new theatre.)
 
 ----
 <div style="text-align: center">
