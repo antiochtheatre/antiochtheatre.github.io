@@ -11,6 +11,7 @@ layout: default
 
 <ul class="links">
   <li><a href="#about">Read about the theater&rsquo;s history and our renovation plans</a></li>
+  <li><a href="sponsor.html">Sponsor the theater for your family or business</a></li>
   <li><a href="http://facebook.com/AntiochTheatre">Follow our progress on Facebook</a></li>
   <li><a href="#contact">Contact us</a></li>
 </ul>
@@ -95,7 +96,7 @@ Help us turn this renovation into a reality&mdash;please **<a href="https://www.
   </figcaption>
 </figure>
 
-In addition to Kickstarter, we&rsquo;re offering exciting personalized support opportunities, including:
+In addition to Kickstarter, we&rsquo;re offering exciting <a href="sponsor.html">personalized support opportunities</a>, including:
 
 * Custom engraved sidewalk and wall stars
 * Seat sponsorships
