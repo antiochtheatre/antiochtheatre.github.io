@@ -55,7 +55,7 @@ Engraved clear glass stars will mounted on the wall leading up to the traditiona
   </figcaption>
 </figure>
 
-Engraved brass plaques are available for $250.  They will be mounted on the seat back(s) of your choice, first come first served, throughout all seating areas (main theatre, balcony, new theatre.)
+Engraved brass plaques are available for $200.  They will be mounted on the seat back(s) of your choice, first come first served, throughout all seating areas (main theatre, balcony, new theatre.)
 
 ----
 <div style="text-align: center">
