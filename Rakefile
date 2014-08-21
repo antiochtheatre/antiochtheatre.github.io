@@ -4,10 +4,6 @@ require "json"
 
 url_pow     = "theatre"
 url_live    = "anitochtheatre.com"
-
-deploy_user = "info@anitochtheatre.com"
-deploy_path = "website.com/location"
-
 github_repo = "antiochtheatre/antiochtheatre.github.io"
 
 desc "Delete old website files to start fresh."
@@ -17,64 +13,14 @@ task :clean do
 end
 
 desc "Design, write, and edit live."
-task :default => [:clean] do
-  pids = [
-    spawn("jekyll -w build"),
-    spawn("sass --watch _assets/css:assets/stylesheets"),
-    spawn("coffee --bare --watch --join assets/javascript/scripts.js --compile _assets/js/*.coffee")
-  ]
-
-  trap "INT" do
-    Process.kill "INT", *pids
-    exit 1
-  end
-
-  loop do
-    sleep 1
-  end
-end
-
-desc "Creates a Pow link. http://pow.cx"
-task :pow do
-  system "ln -s '#{__dir__}' ~/.pow/#{url_pow}"
-  puts "Set up a Pow site at http://#{url_pow}.dev."
-end
-
-desc "Generate a copy of the most current site."
-task :compile do
-  system "jekyll build"
-  system "sass --style compressed _assets/css/style.scss:public/assets/stylesheets/style.css"
-  system "coffee --bare --join public/assets/javascript/scripts.js --compile _assets/js/*.coffee"
-end
-
-desc "Compress JavaScript."
-task :compress do
-  system "uglifyjs public/assets/javascript/scripts.js --compress --output public/assets/javascript/scripts.js"
-  puts "Compressed JavaScript."
+task :default do
+  system "jekyll build -w"
 end
 
 desc "Build a clean, compressed copy of the site."
-task :build => [:clean, :compile, :compress] do
+task :build do
+  system "jekyll build"
   puts "Done! See it locally at http://#{url_pow}.dev, or live at http://#{url_live}."
-end
-
-desc "Upload a fresh copy of the site to your server."
-task :deploy => [:build] do
-  puts "Deploying at http://#{url_live}!"
-  system "rsync -avze 'ssh -p 22' --delete public/ #{deploy_user}:#{deploy_path}"
-end
-
-desc "Upload a copy of your site to the server, and update GitHub."
-# Usage: rake ship "Commit message."
-task :ship do
-  message = ARGV.last
-  task message.to_sym do ; end
-  system "git add -A"
-  system "git commit -am '#{message}'"
-  system "git pull"
-  system "git push"
-  Rake::Task['deploy'].execute
-  puts "Pushed latest to GitHub and deployed to http://#{url_live}."
 end
 
 desc "Builds a fresh copy of your site, then opens it."
