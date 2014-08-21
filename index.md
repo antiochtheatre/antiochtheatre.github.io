@@ -7,16 +7,25 @@ layout: default
 #**Great news: with the help of our generous supporters, we raised <a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre">more than $83,000 on Kickstarter</a>!**
 
 We're overwhelmed by the support, and grateful to our wonderful backers. Thank you all so much! If you missed the Kickstarter and you'd still like to sponsor the theatre, a few <a href="sponsor.html">personalized sidewalk stars and seat plaques are still available.</a> 
+</section>
 
 ---
 
+<section>
 ## Construction news:
+
+<figure class="column-image right">
+  ![Stars]({{ site.url }}/assets/images/theatre-construction.jpg)
+  <figcaption>
+    Now with more dumpster!
+  </figcaption>
+</figure>
 
 Our restoration project is already underway, and demolition is in progress. The new marquee, digital projection equipment (with 3D for the big screen), and new seats are ordered. Check back soon for more updates!
 
 Keep in touch for more info about the project:
 
-<ul class="links">
+<ul>
   <li><a href="http://facebook.com/AntiochTheatre">Follow our progress on Facebook</a></li>
   <li><a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre/posts">See Kickstarter project updates</a></li>
   <li><a href="#contact">Contact us</a></li>
