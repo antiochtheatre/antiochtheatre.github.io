@@ -4,20 +4,26 @@ class: home
 layout: default
 ---
 <section class="intro">
-#After nearly 100 years, the beloved Antioch Theatre is now closed.<br>Help us open its doors once again!
+#**Great news: with the help of our generous supporters, we raised <a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre">more than $83,000 on Kickstarter</a>!**
 
-<a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre" class="cta-button">Back the Antioch Theatre on Kickstarter</a>
-</section>
+We're overwhelmed by the support, and grateful to our wonderful backers. Thank you all so much! If you missed the Kickstarter and you'd still like to sponsor the theatre, a few <a href="sponsor.html">personalized sidewalk stars and seat plaques are still available.</a> 
+
+---
+
+## Construction news:
+
+Our restoration project is already underway, and demolition is in progress. The new marquee, digital projection equipment (with 3D for the big screen), and new seats are ordered. Check back soon for more updates!
+
+Keep in touch for more info about the project:
 
 <ul class="links">
-  <li><a href="#about">Read about the theater&rsquo;s history and our renovation plans</a></li>
-  <li><a href="sponsor.html">Sponsor the theater for your family or business</a></li>
   <li><a href="http://facebook.com/AntiochTheatre">Follow our progress on Facebook</a></li>
+  <li><a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre/posts">See Kickstarter project updates</a></li>
   <li><a href="#contact">Contact us</a></li>
 </ul>
+</section>
 
 ----
-
 
 <section><a name="about"></a>
 ## Here&rsquo;s the story of the Antioch Theatre.
@@ -37,23 +43,6 @@ The theater survived and thrived for 90 years &mdash; through prohibition, the G
 
 Unfortunately, in recent times, deferred maintenance and outdated
 technology put the Antioch Theatre in a dire financial situation. The current owner closed its doors on May 16, 2014.
-
-----
-
-<figure class="column-image right present">
-  ![Antioch Theatre present day]({{ site.url }}/assets/images/theatre-present.jpg)
-  <figcaption>
-    Antioch Theatre today.
-  </figcaption>
-</figure>
-
-## Why should we save it?
-
-Movie theaters are like heartbeats for small downtowns. They're a gathering place for people of all ages—not just for movies, but to dine, shop, and drink.
-
-When a downtown theater closes, fewer people visit, and other businesses suffer too. We want to make sure that doesn't happen! 
-
-After the renovation, we’ll have improved technology, expanded facilities, and great new possibilities for live events and performances. Saving the theater will help downtown Antioch remain vibrant for years to come.
 
 ----
 
@@ -85,9 +74,7 @@ Digital projection will allow the theater to show first-run releases and broadca
 
 ----
 
-## We need your help! Support the theater and become a permanent part of its future.
-
-Help us turn this renovation into a reality&mdash;please **<a href="https://www.kickstarter.com/projects/608543555/save-the-antioch-theatre">back our project on Kickstarter</a>**! 
+## Support the theater and become a permanent part of its future.
 
 <figure class="column-image right">
   ![Stars]({{ site.url }}/assets/images/stars.jpg)
@@ -96,7 +83,7 @@ Help us turn this renovation into a reality&mdash;please **<a href="https://www.
   </figcaption>
 </figure>
 
-In addition to Kickstarter, we&rsquo;re offering exciting <a href="sponsor.html">personalized support opportunities</a>, including:
+We&rsquo;re offering exciting <a href="sponsor.html">personalized support opportunities</a>, including:
 
 * Custom engraved sidewalk and wall stars
 * Seat sponsorships
